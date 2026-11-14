@@ -1,63 +1,76 @@
 # Olá, eu sou Ryan Rodrigues 👋
 
-Sou estudante de **Análise e Desenvolvimento de Sistemas**, com foco em **desenvolvimento Python, automação de processos, análise de dados e desenvolvimento web**.
+Sou desenvolvedor com foco em **Backend e desenvolvimento de sistemas**. Trabalho principalmente com Python e Node.js, criando APIs, integrações e aplicações que organizam processos e resolvem problemas do dia a dia.
 
-Atualmente trabalho com suporte de TI e desenvolvimento de soluções para automatizar tarefas operacionais, buscando transformar processos manuais em ferramentas mais rápidas, confiáveis e escaláveis.
+Tenho experiência prática com desenvolvimento full stack, modelagem e integração com bancos de dados, autenticação, controle de acesso, testes e publicação de aplicações. Gosto de entender o problema antes de implementar a solução e manter o código organizado, seguro e fácil de dar manutenção.
 
-## 🚀 Tecnologias
+## 🛠️ Tecnologias
 
 **Backend**
 - Python
-- Django / Django REST Framework
 - Flask
+- Django / Django REST Framework
 - Node.js
 - Express.js
 - APIs REST
 
-**Frontend**
-- React.js
-- JavaScript
-- Tailwind CSS
-
-**Dados e Banco de Dados**
-- Pandas
-- MySQL
-- SQLite
+**Banco de dados**
 - PostgreSQL
 - Supabase
+- MySQL
+- SQLite
+- SQL
 
-**Ferramentas**
-- Git
-- GitHub
-- JWT
-- Streamlit
-- OpenPyXL
-
-## 💻 Projetos em destaque
-
-### 🍕 Sistema de Gestão para Pizzaria
-Aplicação full stack com **Django REST Framework + React**, incluindo gerenciamento de produtos, categorias, pedidos e usuários.
-
-### 📊 Análise de Vendas com Python
-Projeto desenvolvido com **Python, Pandas e Matplotlib** para automatizar análise de dados, cálculo de indicadores e geração de gráficos.
-
-### 🤖 Automações com Python
-Desenvolvimento de scripts para automatizar processos operacionais e reduzir tarefas manuais.
-
-Entre os projetos desenvolvidos está uma automação responsável por monitorar a conectividade de VPNs de múltiplas unidades e realizar a reconexão automaticamente quando necessário.
-
-### 🔗 Integração Supabase + Z-API
-Automação desenvolvida em Python para consultar contatos armazenados no Supabase e realizar o envio automatizado de mensagens através de API.
-
-## 📚 Atualmente estudando
-
-- Arquitetura de APIs REST
+**Frontend**
+- JavaScript
 - React
-- Django
-- PostgreSQL
-- Automação com Python
-- Inteligência Artificial aplicada a sistemas
+- Vite
+- Tailwind CSS
 
-## 🎯 Objetivo
+**Ferramentas e práticas**
+- Git e GitHub
+- Docker
+- GitHub Actions / CI
+- Testes automatizados
+- Row Level Security (RLS)
+- Integração com serviços externos
+- Deploy e configuração de ambientes
 
-Continuar evoluindo como desenvolvedor, principalmente nas áreas de **Backend, Full Stack, Automação e Inteligência Artificial**, construindo soluções para problemas reais.
+## 🚀 Projetos em destaque
+
+### [Finance App](https://github.com/zRyann7/finance-app)
+Aplicação full stack para controle de finanças pessoais, com cadastro de usuários, receitas, despesas, metas e contas recorrentes.
+
+- API desenvolvida com Node.js e Express.
+- React no frontend e Supabase no banco de dados e autenticação.
+- Políticas RLS para garantir que cada usuário acesse somente os próprios dados.
+- Testes automatizados no backend e frontend, integração contínua com GitHub Actions.
+- Aplicação publicada com frontend na Vercel e backend no Render.
+
+**Tecnologias:** Node.js, Express, React, Supabase, PostgreSQL, Docker e Vitest.
+
+### Industrial Manager
+Projeto em desenvolvimento voltado à gestão industrial, com foco em processos de produção, estoque e acompanhamento de operações.
+
+A proposta é ampliar funcionalidades de acompanhamento de ordens de produção com recursos para consultar e organizar informações de estoque.
+
+**Tecnologias planejadas:** React, Python e banco de dados relacional.
+
+### Automações e integrações com Python
+Desenvolvimento de automações para reduzir tarefas manuais e integrar serviços, incluindo monitoramento de conectividade de VPNs e integração entre Supabase e API de mensageria.
+
+**Tecnologias:** Python, APIs REST e Supabase.
+
+## 📌 Áreas de interesse
+
+- Desenvolvimento Backend
+- Construção e integração de APIs
+- Modelagem e segurança de bancos de dados
+- Automação de processos
+- Arquitetura e qualidade de software
+
+Estou sempre buscando aprimorar minhas práticas de desenvolvimento por meio de projetos próprios, testes e estudo de tecnologias aplicadas a problemas reais.
+
+---
+
+[![GitHub](https://img.shields.io/badge/GitHub-zRyann7-181717?style=flat&logo=github)](https://github.com/zRyann7)
