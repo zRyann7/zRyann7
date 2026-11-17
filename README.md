@@ -7,7 +7,7 @@
 Construindo APIs, integrações e aplicações para resolver problemas reais.
 
 [![GitHub](https://img.shields.io/badge/GitHub-zRyann7-181717?style=for-the-badge&logo=github)](https://github.com/zRyann7)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Perfil-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Perfil-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/ryan-rodrigues-29638925b/)
 
 </div>
 
@@ -81,8 +81,8 @@ Desenvolvimento de automações em Python para reduzir tarefas manuais e integra
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=zRyann7&show_icons=true&hide_border=true&theme=transparent&rank_icon=github" alt="Estatísticas do GitHub"/>
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=zRyann7&layout=compact&hide_border=true&theme=transparent" alt="Linguagens mais utilizadas"/>
+<img height="180" src="./profile-summary-card-output/tokyonight/0-profile-details.svg" alt="Estatísticas do GitHub"/>
+<img height="180" src="./profile-summary-card-output/tokyonight/1-repos-per-language.svg" alt="Linguagens mais utilizadas"/>
 
 </div>
 
