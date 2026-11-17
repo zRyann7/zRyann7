@@ -15,14 +15,23 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
       - name: Generate GitHub Stats SVGs
-        uses: jstrieb/github-stats@master
         env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           GITHUB_ACTOR: zRyann7
           EXCLUDED: ""
           EXCLUDED_LANGS: "HTML,CSS"
           COUNT_STATS_FROM_FORKS: "false"
+        run: |
+          mkdir -p generated
+          git clone --depth 1 https://github.com/jstrieb/github-stats.git /tmp/github-stats
+          pip install -r /tmp/github-stats/requirements.txt
+          python /tmp/github-stats/generate_images.py
 
       - name: Commit generated SVGs
         run: |
