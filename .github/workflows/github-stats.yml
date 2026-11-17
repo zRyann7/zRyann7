@@ -15,29 +15,11 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v5
 
-      - name: Set up Python
-        uses: actions/setup-python@v6
-        with:
-          python-version: "3.12"
-
-      - name: Generate GitHub Stats SVGs
+      - name: Generate GitHub Summary Cards
+        uses: vn7n24fzkq/github-profile-summary-cards@release
         env:
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          GITHUB_ACTOR: zRyann7
-          EXCLUDED: ""
-          EXCLUDED_LANGS: "HTML,CSS"
-          COUNT_STATS_FROM_FORKS: "false"
-        run: |
-          pip install aiohttp
-          git clone --depth 1 https://github.com/jstrieb/github-stats.git /tmp/github-stats
-          cd /tmp/github-stats && python generate_images.py
-          rm -rf "$GITHUB_WORKSPACE/generated"
-          cp -r /tmp/github-stats/generated "$GITHUB_WORKSPACE/generated"
-
-      - name: Commit generated SVGs
-        run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          git add generated/
-          git diff --quiet && git diff --staged --quiet || git commit -m "chore: update github stats svgs"
-          git push
+          GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        with:
+          USERNAME: zRyann7
+          THEME: tokyonight
+          OUTPUT_DIR: generated
